@@ -1,0 +1,126 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.test {
+  color: red;
+}
+
+.MyBtn {
+  margin: 10px;
+}
+
+.MyContainer {
+  margin: 40px 0px;
+}
+
+.MyTweet a {
+  color: #276f86;
+  text-decoration: underline;
+}
+
+.MyTweet a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+.MyArticles {
+  padding: 18px 0;
+}
+
+.MyArticlesHide {
+  display: none;
+}
+
+.MyArticles a {
+  line-height: 200%;
+  color: #276f86;
+  text-decoration: none;
+}
+
+.MyArticles a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+.MyArticleContainer {
+  margin: 0;
+  padding: 0;
+}
+
+.MyArticleContainer a {
+  color: #276f86;
+  text-decoration: none;
+}
+
+.MyArticleContainer a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.ScrollButton {
+  position: fixed;
+  bottom: 14px;
+  right: 4px;
+}
+
+.JustHide {
+  display: none !important;
+}
+
+.Hide {
+  display: none !important;
+}
+
+.Hidden {
+  display: none !important;
+}
+
+.Deleted {
+  text-decoration: line-through;
+}
+
+.MyTag {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.MyTag2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+
+.MyTag3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.MyWordDiv {
+  border: 1px #AAA solid;
+  margin: 5px 5px 5px 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  float: left;
+}
+
+.DisabledLink {
+  color: red;
+}
+
+/*
+https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation
+https://stackoverflow.com/questions/24658365/img-tag-displays-wrong-orientation
+*/
+img {
+  image-orientation: from-image;
+}
